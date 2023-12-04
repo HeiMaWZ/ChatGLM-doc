@@ -1,2 +1,2 @@
 # ChatGLM-doc
-The repository implements a dialogue system for chatglm3 based on document question-answering, mainly comprising three parts.
+The repository implements a dialogue system for chatglm3 based on document question-answering, mainly comprising three parts: 1. Parsing documents into lists. 2. Converting text into vectors and storing them in a vector database. 3. Subsequently, the system can match the most similar two question-answer pairs based on vector distance and add them to the prompt, optimizing the model's question-answering performance.
